@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - OINetworking (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - OINetworking (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  OINetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  OINetworking: 64873aab659c305eeac58e818d657fcd27116556
+
+PODFILE CHECKSUM: 91e899fe3578a0510d08b7ffff998208f85d25f7
+
+COCOAPODS: 1.9.3

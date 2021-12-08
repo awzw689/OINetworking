@@ -1,0 +1,6 @@
+framework module OINetworking {
+  umbrella header "OINetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
